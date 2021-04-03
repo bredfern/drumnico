@@ -5,13 +5,13 @@ import Layout from '../components/Layout';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Scroll from '../components/Scroll';
-import overLayPic from '../assets/images/overlay.png';
+import overLayPic from '../assets/images/nico1.jpg';
 import { Link } from 'gatsby';
 
 const sections = [
-  { id: 'one', bg: require('../assets/images/pic01.jpg') },
-  { id: 'two', bg: require('../assets/images/pic02.jpg') },
-  { id: 'three', bg: require('../assets/images/pic03.jpg') },
+  { id: 'one', bg: require('../assets/images/nico2.jpg') },
+  { id: 'two', bg: require('../assets/images/nico3.jpg') },
+  { id: 'three', bg: require('../assets/images/nico4.jpg') },
 ];
 const IndexPage = () => (
   <Layout>
@@ -27,30 +27,49 @@ const IndexPage = () => (
             <h2>Who I am</h2>
           </header>
           <p>
-          Nico Spezzacatena is a multi-talented percussionist, performer, and educator from Hoboken, New Jersey. 
-          He received his BFA and MFA in world music performance from the California Institute of the Arts. 
-          Nico has been studying and researching traditional music and dance for over 15 years. 
-          In 1997, he founded Guineafia - a West African Drum and Dance Ensemble. 
-          </p>
-          <p>
-          In 1999, Nico traveled to Ghana, West Africa to research Ewe, Dagomba, and Asante culture, dance and music. 
-          He has studied Drum and Dance under the Ladzekpo family, the Yevutsey family, Sulley Imoro, 
-          the Lawluvi family (choreography and dance), Asari of Legon, Kakraba Lobi, Doug Floyd, Mor Thiam, 
-          and Mamady Keita.
-          </p>
-          <p> Nico is a tabla disciple of Swapan Chaudhuri, and has also studied South Indian Karnatic 
-          music with Poovalur Srinivasan. He has studied Javanese and Balinese gamelan, Afro-Cuban 
-          and Haitian drumming, and frame drums with John Bergamo. 
-          </p>
-          <p>
-          Nico has performed with Olodum, Boogsie Sharp, Wadada Leo Smith, Huun-Huur-Tu, Ozomatli, and Mark Karan, to name a few. 
-          Nico has performed and given workshops in the Tri-State Area, Florida, California, Nevada, West Virginia, Milan, 
-          the Hawaiian Islands, and Ghana. In 2001, he recorded music for NBC's Survivor Kenya TV series. 
-          </p>
-          <p>
-          Nico is also a researcher and board member of the Nada Brahma Foundation, a non-profit organization dedicated to the research, 
-          education, and preservation of indigenous culture. Currently on Maui, Nico is the lead percussionist in “Ulalena,” 
-          the award-winning theatrical production depicting the history, mythology, and culture of the Hawaiian peoples.
+          Nico Spezzacatena is a multi-talented percussionist, 
+performer, and educator from Hoboken, New Jersey. He 
+received his BFA and MFA in world music performance from the 
+California Institute of the Arts. Nico has been studying and 
+researching traditional music and dance for over 25 years.
+</p>
+<p> In 1997, he founded Guineafia – a West African Drum and Dance 
+Ensemble. In 1999, Nico traveled to Ghana, West Africa to 
+research Ewe, Dagomba, and Asante culture, music, and dance. 
+As a result, 3 documentaries were released. He has studied 
+Drum and Dance under the Ladzekpo family, the Yevutsey 
+family, Promise Dogbatsey, Sulley Imoro, the Lawluvi family 
+(choreography and dance), Seth and Asari of the University of 
+Legon, Kakraba Lobi, Doug Floyd, Mor Thiam, Sylla Diallo, Sidiki 
+Dembele, Mamady Keita, Shodunke Ayanlekan and Ayandokun 
+Ayanwale.
+</p>
+<p>
+ Nico is a tabla disciple of Swapan Chaudhuri, and 
+has also studied South Indian Karnatic music with Poovalur 
+Srinivasan and S. Sankar. He has studied the Balinese and 
+Javanese gamelans, and in 2010 traveled to Bali to further 
+research Jegog, and gong making, among other things. 
+Afro-Cuban and Haitian drumming has been studied, as well as an 
+array of frame drums with John Bergamo. Nico has been 
+involved in Hawaiian culture through his colleague’s at the Maui 
+Theatre. 
+</p>
+<p>
+Nico has performed with Olodum, Wadada Leo Smith, 
+Trichy Sankaran, Bruce Springsteen, Los Lobos, Ozomatli, 
+Huun-Huur-Tu, and Boogsie Sharp, to name a few. He has 
+performed and given workshops in the Tri-State Area, Florida, 
+California, Nevada, West Virginia, the Hawaiian Islands, Milan, 
+and Ghana. In 2001, he recorded music for NBC’s Survivor
+Kenya TV series. Nico is also a researcher and board member 
+of the Nada Brahma Foundation, a non-profit organisation 
+dedicated to the research, education and preservation of 
+indigenous culture. On Maui, Nico was the lead percussionist in
+‘Ulalena, the award-winning theatrical production depicting the 
+history, mythology and culture of the Hawaiian peoples. He 
+performed a staggering 4,500+ shows over a 16 and a half year 
+run.
           </p>
         </div>
         <Scroll type="id" element="two">
@@ -75,7 +94,7 @@ const IndexPage = () => (
           </p>
           <ul className="icons-grid">
             <li>
-              <span className="icon major fa-phone" />
+              <span className="icon major fa-drum" />
               <h3><a href="#three">African Song</a></h3>
             </li>
             <li>
@@ -83,12 +102,16 @@ const IndexPage = () => (
               <h3><a href="#four">Team Building</a></h3>
             </li>
             <li>
+              <span className="icon major fa-pencil" />
+              <h3><a href="#footer">Instruction</a></h3>
+            </li>
+            <li>
               <span className="icon major fa-code" />
               <h3><a href="#five">Workshops</a></h3>
             </li>
             <li>
               <span className="icon major fa-coffee" />
-              <h3><a href="#footer">Private Instruction</a></h3>
+              <h3><a href="#six">Drum in the Sun</a></h3>
             </li>
           </ul>
         </div>
@@ -152,7 +175,7 @@ interactive.
       </div>
     </section>
 
-    <section id="fivr" className="main special">
+    <section id="five" className="main special">
       <div className="container">
         <span className="image fit primary">
           <img src={sections[2].bg} alt="" />
@@ -167,6 +190,50 @@ Workshops in West African drum and dance (Ewe, Dagomba, and Manding), Afro-Cuban
 drumming, North and South Indian rhythmic principles, and Kecak (Balinese Monkey Chant) 
 are currently offered. These workshops are fun and educational and essential for students of 
 all ages and backgrounds. 
+              </p>
+        </div>
+        <Scroll type="id" element="footer">
+          <a href="#footer" className="goto-next ">
+            Next
+          </a>
+        </Scroll>
+      </div>
+    </section>
+
+    <section id="six" className="main special">
+      <div className="container">
+        <span className="image fit primary">
+          <img src={sections[2].bg} alt="" />
+        </span>
+        <div className="content">
+          <header className="major">
+            <h2>Drum in the Sun</h2>
+          </header>
+          <p>
+          “Play exotic instruments from all over the world in a fun
+and educational environment!!!”
+</p>
+<p>
+Drum In The Sun is the new exciting and educational
+activity on beautiful Maui led by global percussionist
+Nico! During these classes, students will begin their
+journey right here in Maui by exploring the traditional
+instruments and rhythms of Hawaii and Tahiti. From
+there, we will traverse the world of rhythm through
+Africa, Latin America, India, and MORE!
+</p>
+<p>
+During these activities, those attending will play
+multiple ethnic instruments and also learn about the
+history and importance of the drums in these cultures.
+Each participant of Drum in the Sun will receive
+multiple handouts, including maps, photos, and detailed
+information about world rhythm and the instruments at
+hand.
+Drum in the Sun focuses on developing listening skills,
+multiple percussive techniques, motor skills,
+improvisation and soloing, and simply having a good
+time!
               </p>
         </div>
         <Scroll type="id" element="footer">
@@ -211,7 +278,6 @@ all ages and backgrounds.
             </div>
           </div>
         </form>
-        <Link to="/Elements"> Check out Elements page</Link>
       </div>
       <Footer />
     </section>
