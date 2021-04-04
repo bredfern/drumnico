@@ -102,11 +102,11 @@ run.
               <h3><a href="#three">African Song</a></h3>
             </li>
             <li>
-            <span class="icon major fa-coffee"></span>
+            <span class="icon major fa-square"></span>
               <h3><a href="#four">Team Building</a></h3>
             </li>
             <li>
-            <span class="icon major fa-coffee"></span>
+            <span class="icon major fa-certificatee"></span>
               <h3><a href="#five">Workshops</a></h3>
             </li>
             <li>
