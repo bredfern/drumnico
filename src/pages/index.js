@@ -7,6 +7,7 @@ import Footer from '../components/Footer';
 import Scroll from '../components/Scroll';
 import overLayPic from '../assets/images/nico1.jpg';
 import { Link } from 'gatsby';
+import Gallery from '@browniebroke/gatsby-image-gallery'
 
 const sections = [
   { id: 'one', bg: require('../assets/images/nico2.jpg') },
