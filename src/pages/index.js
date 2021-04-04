@@ -14,7 +14,8 @@ const sections = [
   { id: 'four', bg: require('../assets/images/nico5.jpg') },
   { id: 'three', bg: require('../assets/images/nico4.jpg') },
   { id: 'five', bg: require('../assets/images/nico6.jpg') },
-  { id: 'six', bg: require('../assets/images/nico1.jpg') },
+  { id: 'six', bg: require('../assets/images/nico7.jpg') },
+  { id: 'seven', bg: require('../assets/images/nico8.jpg') }
 ];
 const IndexPage = () => (
   <Layout>
@@ -97,16 +98,19 @@ run.
           </p>
           <ul className="icons-grid">
             <li>
-            <i class="fas fa-drum"></i>
+            <span class="icon major fa-heart"></span>
               <h3><a href="#three">African Song</a></h3>
             </li>
             <li>
+            <span class="icon major fa-coffee"></span>
               <h3><a href="#four">Team Building</a></h3>
             </li>
             <li>
+            <span class="icon major fa-coffee"></span>
               <h3><a href="#five">Workshops</a></h3>
             </li>
             <li>
+            <span class="icon major fa-coffee"></span>
               <h3><a href="#six">Drum in the Sun</a></h3>
             </li>
           </ul>
@@ -245,7 +249,7 @@ time!
         <header className="major">
           <h2>Get in touch</h2>
         </header>
-        <form method="post" action="#">
+        <form action="mailto:drumnico@hotmail.com" method="get" enctype="text/plain">
           <div className="row gtr-uniform">
             <div className="col-6 col-12-xsmall">
               <input type="text" name="name" id="name" placeholder="Name" />
