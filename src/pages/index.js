@@ -62,7 +62,7 @@ Theatre.
 <p>
 Nico has performed with Olodum, Wadada Leo Smith, 
 Trichy Sankaran, Bruce Springsteen, Los Lobos, Ozomatli, 
-Huun-Huur-Tu, and Boogsie Sharp, to name a few. He has 
+Huun-Huur-Tu, Mick Fleetwood, and Boogsie Sharp, to name a few. He has 
 performed and given workshops in the Tri-State Area, Florida, 
 California, Nevada, West Virginia, the Hawaiian Islands, Milan, 
 and Ghana. In 2001, he recorded music for NBC’s Survivor
@@ -130,7 +130,7 @@ run.
         </span>
         <div className="content">
           <header className="major">
-            <h2>Africa Song</h2>
+            <h2>African Song</h2>
           </header>
           <p>
               A class that focuses on Ewe, Fo, Egun, and Ga-Adangbe songs from Ghana, 
