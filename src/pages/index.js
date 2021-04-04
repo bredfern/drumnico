@@ -11,7 +11,10 @@ import { Link } from 'gatsby';
 const sections = [
   { id: 'one', bg: require('../assets/images/nico2.jpg') },
   { id: 'two', bg: require('../assets/images/nico3.jpg') },
+  { id: 'four', bg: require('../assets/images/nico5.jpg') },
   { id: 'three', bg: require('../assets/images/nico4.jpg') },
+  { id: 'five', bg: require('../assets/images/nico6.jpg') },
+  { id: 'six', bg: require('../assets/images/nico1.jpg') },
 ];
 const IndexPage = () => (
   <Layout>
@@ -20,7 +23,7 @@ const IndexPage = () => (
     <section id="one" className="main special">
       <div className="container">
         <span className="image fit primary">
-          <img src={sections[0].bg} alt="" />
+          <img src={sections[5].bg} alt="" />
         </span>
         <div className="content">
           <header className="major">
@@ -83,7 +86,7 @@ run.
     <section id="two" className="main special">
       <div className="container">
         <span className="image fit primary">
-          <img src={sections[1].bg} alt="" />
+          <img src={sections[2].bg} alt="" />
         </span>
         <div className="content">
           <header className="major">
@@ -94,6 +97,7 @@ run.
           </p>
           <ul className="icons-grid">
             <li>
+            <i class="fas fa-drum"></i>
               <h3><a href="#three">African Song</a></h3>
             </li>
             <li>
@@ -118,7 +122,7 @@ run.
     <section id="three" className="main special">
       <div className="container">
         <span className="image fit primary">
-          <img src={sections[2].bg} alt="" />
+          <img src={sections[0].bg} alt="" />
         </span>
         <div className="content">
           <header className="major">
@@ -145,7 +149,7 @@ while they sing.
     <section id="four" className="main special">
       <div className="container">
         <span className="image fit primary">
-          <img src={sections[2].bg} alt="" />
+          <img src={sections[1].bg} alt="" />
         </span>
         <div className="content">
           <header className="major">
@@ -170,7 +174,7 @@ interactive.
     <section id="five" className="main special">
       <div className="container">
         <span className="image fit primary">
-          <img src={sections[2].bg} alt="" />
+          <img src={sections[4].bg} alt="" />
         </span>
         <div className="content">
           <header className="major">
@@ -195,7 +199,7 @@ all ages and backgrounds.
     <section id="six" className="main special">
       <div className="container">
         <span className="image fit primary">
-          <img src={sections[2].bg} alt="" />
+          <img src={sections[3].bg} alt="" />
         </span>
         <div className="content">
           <header className="major">
