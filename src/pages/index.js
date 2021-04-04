@@ -87,7 +87,7 @@ run.
     <section id="two" className="main special">
       <div className="container">
         <span className="image fit primary">
-          <img src={sections[2].bg} alt="" />
+          <img src={sections[6].bg} alt="" />
         </span>
         <div className="content">
           <header className="major">
