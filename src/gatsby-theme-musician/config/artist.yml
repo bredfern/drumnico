@@ -1,11 +1,10 @@
 artist:
-  name: Drum Nico
-  tagline: Percussionist Nico Spezzacatena
-  # seo_title:
-  # seo_description:
-  # contact_twitter_username:
-  # contact_phone: 
-  # contact_email: 
+  name: Nico Spezzacatena
+  tagline: Drum in the Sun with Nico
+  seo_title: Drum in the Sun with percssionist Nico Spezzacatena
+  seo_description: tabla, ewe, arfican, drum, instruction, teacher
+  contact_phone: 661-312-3924
+  contact_email: drumnico@hotmail.com
 
 social:
   - name: Facebook

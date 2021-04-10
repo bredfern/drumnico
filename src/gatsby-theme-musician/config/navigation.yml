@@ -3,6 +3,8 @@ navigation:
     url: "#about"
   - text: Workshops
     url: "#workshops"
+  - text: Videos
+    url: "#videos"
   - text: For Sale
     url: "#forsale"
   - text: Contact

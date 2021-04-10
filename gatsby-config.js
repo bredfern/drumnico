@@ -7,7 +7,7 @@
 module.exports = {
   // Add common site data (not required by the theme, but recommended)
   siteMetadata: {
-    title: "Drum Nico",
+    title: "Nico Spezzacatena",
     description: "",
     siteUrl: "https://drumnico.com"
   },
