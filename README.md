@@ -1,98 +1,36 @@
-# gatsby-starter-highlights
+<h1 align="center">
+  Starter for Gatsby Theme Musician
+</h1>
 
-Gatsby.js V2 starter template based on Highlights by HTML5 UP
+<p>&nbsp;</p>
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+This starter creates a new Gatsby site that is preconfigured to work with [gatsby-theme-musician](https://github.com/ekafyi/gatsby-theme-musician/), a theme for bands and music artists 🎸🎙. 
 
-![Screenshot](./src/assets/img/highlights.jpg)
+A *theme* is something you add to your Gatsby site, which you can combine with other themes (learn more in their [official docs](https://www.gatsbyjs.org/docs/themes/what-are-gatsby-themes/)). If you already have a Gatsby site, you can [add the theme manually](https://github.com/ekafyi/gatsby-theme-musician#option-b-manually-add-to-your-existing-site); this starter site aims to get you started quickly if you want to create a new site.
 
-Check online preview [here](https://anubhavsrivastava.github.io/gatsby-starter-highlights/)
+💡 _If you have never used Gatsby before, head to their [quick start guide](https://www.gatsbyjs.org/docs/quick-start/) or [beginner-friendly tutorials](https://www.gatsbyjs.org/tutorial/)._
 
-## Screenshot
-
-![Screenshot](./src/assets/img/demo.png)
-
-## Install
-
-Make sure that you have the Gatsby CLI program installed:
+## Quick start
 
 ```sh
-npm install --global gatsby-cli
-```
+# create a new site at the directory "my-band-site"
+gatsby new my-band-site https://github.com/ekafyi/starter-musician-theme
 
-And run from your CLI:
+# go to the site directory
+cd my-band-site
 
-```sh
-gatsby new <site-name> https://github.com/anubhavsrivastava/gatsby-starter-highlights
-```
-
-Then you can run it by:
-
-```sh
-cd gatsby-example-site
-npm install
+# start your site
 gatsby develop
 ```
 
-### Personalization
+Your site is now running at `http://localhost:8000`!
 
-Edit `config.js` to put up your details
+## Usage
 
-```javascript
-module.exports = {
-  siteTitle: 'Gatsby Starter highlights', // <title>
-  ...
-  heading: 'Anubhav',
-  subHeading: 'Web Developer',
-  // social
-  socialLinks: [
-    {
-      icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
-    }
-    ...
-  ],
-};
+Check out the [Theme Documentation](https://github.com/ekafyi/gatsby-theme-musician/tree/master/docs) to see how to use this theme, where to add your content, etc.
 
-```
+Or read the [introductory post on DEV.to](https://dev.to/ekafyi/make-a-landing-page-for-your-band-in-30-minutes-with-gatsby-theme-musician-2227).
 
-### Deploying using Github page
+## One-click deploy
 
-`package.json` has a default script that uses `gh-pages` module to publish on Github pages. Simply running `npm run deploy` would publish the site on github pages.
-
-Additionally, it also has [path-prefix](https://www.gatsbyjs.org/docs/path-prefix/) value set for gatsby config in `config.js`. Change `pathPrefix` to relevant path if your gatsby site is hosted on subpath of a domain, `https://theanubhav.com/somePath/`. If you are hosting it as root site, i.e, `https://theanubhav.com/` , remove the pathPrefix configuration.
-
-### Checkout other similar starters
-
-- [gatsby-starter-casual](https://github.com/anubhavsrivastava/gatsby-starter-casual)
-- [gatsby-starter-grayscale](https://github.com/anubhavsrivastava/gatsby-starter-grayscale)
-- [gatsby-starter-resume](https://github.com/anubhavsrivastava/gatsby-starter-resume)
-- [gatsby-starter-spectral](https://github.com/anubhavsrivastava/gatsby-starter-spectral)
-- [gatsby-starter-newage](https://github.com/anubhavsrivastava/gatsby-starter-newage)
-- [gatsby-starter-stylish](https://github.com/anubhavsrivastava/gatsby-starter-stylish)
-- [gatsby-starter-solidstate](https://github.com/anubhavsrivastava/gatsby-starter-solidstate)
-- [gatsby-starter-readonly](https://github.com/anubhavsrivastava/gatsby-starter-readonly)
-- [gatsby-starter-prologue](https://github.com/anubhavsrivastava/gatsby-starter-prologue)
-- [gatsby-starter-phantom](https://github.com/anubhavsrivastava/gatsby-starter-phantom)
-- [gatsby-starter-paradigmshift](https://github.com/anubhavsrivastava/gatsby-starter-paradigmshift)
-- [gatsby-starter-overflow](https://github.com/anubhavsrivastava/gatsby-starter-overflow)
-- [gatsby-starter-multiverse](https://github.com/anubhavsrivastava/gatsby-starter-multiverse)
-- [gatsby-starter-identity](https://github.com/anubhavsrivastava/gatsby-starter-identity) 
-- [gatsby-starter-fractal](https://github.com/anubhavsrivastava/gatsby-starter-fractal)
-- [gatsby-starter-eventually](https://github.com/anubhavsrivastava/gatsby-starter-eventually)
-- [gatsby-starter-directive](https://github.com/anubhavsrivastava/gatsby-starter-directive)
-- [gatsby-starter-creative](https://github.com/anubhavsrivastava/gatsby-starter-creative)
-- [gatsby-starter-aerial](https://github.com/anubhavsrivastava/gatsby-starter-aerial)
-
-### Contribution
-
-Suggestions and PRs are welcome!
-
-Please create issue or open PR request for contribution.
-
-### License
-
-[![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](LICENSE)
-
-refer `LICENSE` file in this repository.
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ekafyi/starter-musician-theme)

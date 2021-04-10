@@ -1,25 +1,28 @@
-const config = require('./config');
+/**
+ * Configure your Gatsby site with this file.
+ *
+ * See: https://www.gatsbyjs.org/docs/gatsby-config/
+ */
 
 module.exports = {
-  pathPrefix: config.pathPrefix,
+  // Add common site data (not required by the theme, but recommended)
   siteMetadata: {
-    title: config.siteTitle,
+    title: "Drum Nico",
+    description: "",
+    siteUrl: "https://drumnico.com"
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
+    // Add gatsby-theme-musician to your site
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: "gatsby-theme-musician",
+      // More info about the theme options:
+      // https://github.com/ekafyi/gatsby-theme-musician/blob/master/docs/usage.md#theme-options
       options: {
-        name: config.manifestName,
-        short_name: config.manifestShortName,
-        start_url: config.pathPrefix || config.manifestStartUrl,
-        background_color: config.manifestBackgroundColor,
-        theme_color: config.manifestThemeColor,
-        display: config.manifestDisplay,
-        icon: config.manifestIcon, // This path is relative to the root of the site.
-      },
-    },
-    'gatsby-plugin-sass',
-    'gatsby-plugin-offline',
-  ],
+        // These are default values that you can override
+        // basePath: `/`,
+        // content: `content`,
+        // pwaName: null
+      }
+    }
+  ]
 };
